@@ -9,7 +9,7 @@ void setup() {
   size(1000, 450);
   ampleBarraXtotal=width/2;
   imagen=loadImage("imgres.jpg");
-  chopper=loadImagen(
+  chopper=loadImagen();
 }
 void draw() {
 image(imagen,0,0,width,height);
